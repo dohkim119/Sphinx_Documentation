@@ -22,6 +22,9 @@ class Rectangle:
         return area
 
 def main ():
+    '''
+          The main method
+    '''
 
     for i in range(1,6) :
         rect = Rectangle(randint(1,100), randint(1,100))
